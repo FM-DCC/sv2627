@@ -8,7 +8,8 @@ layout: home
 
 This course provides an introduction to formal techniques to verify computer systems based on models (model checking).
 
-The official plan of this course is hosted in FCUP [here](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=570250).
+The official plan of this course is hosted in FCUP [here](https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=590006).
+
 
 # Learning outcomes and competences
 
