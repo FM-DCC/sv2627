@@ -392,6 +392,8 @@ Every $P$ yields a transition system $X \to {\alert{???}}$ with transitions pres
                                                                   \notin L}$
 \msep
 \typerule{rel}{P\trans\alpha P'}{\crn P f\trans{f(\alpha)} \crn{P'} f}
+\msep
+\typerule{rec}{K = P \quad P\trans{\alpha} P'}{K\trans\alpha P'}
 % \\[3mm]
 % \typerule{com1}{P\trans\alpha P'}{P|Q\trans\alpha P'|Q}
 % \msep
@@ -586,6 +588,8 @@ where
                                                                   \notin L}$
 \msep
 \typerule{rel}{P\trans\alpha P'}{\crn P f\trans{f(\alpha)} \crn{P'} f}
+\msep
+\typerule{rec}{K = P \quad P\trans{\alpha} P'}{K\trans\alpha P'}
 \\[2mm]
 \alert{
 \typerule{com1}{P\trans\alpha P'}{P|Q\trans\alpha P'|Q}
