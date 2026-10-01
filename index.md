@@ -55,7 +55,7 @@ Students should:
 Transition systems with functors; syntax of sequential process algebra (slides [2-behaviour](slides/2-behaviour.pdf), frames 1-11)
 - __24 Sep '26__: Syntax and semantics of CCS (slides [2-behaviour](slides/2-behaviour.pdf), 11-20).
 Modelling in mCRL2 (slides [3-mCRL2](slides/3-mcrl2.pdf), 1-12). Starting the tutorial "hands-on" with mCRL2.
-
+- __1 Oct '26__: Continuing the tutorial "hands-on" with mCRL2. Equivalence of transition systems (slides [2-behaviour](slides/2-behaviour.pdf), frames 13-38). Introduction to Modal Logics (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), 1-13).
 
 <!-- 
 - __2 Oct '25__: No lesson due to an ongoing scientific event.
