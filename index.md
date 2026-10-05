@@ -56,6 +56,8 @@ Transition systems with functors; syntax of sequential process algebra (slides [
 - __24 Sep '26__: Syntax and semantics of CCS (slides [2-behaviour](slides/2-behaviour.pdf), 11-20).
 Modelling in mCRL2 (slides [3-mCRL2](slides/3-mcrl2.pdf), 1-12). Starting the tutorial "hands-on" with mCRL2.
 - __1 Oct '26__: Continuing the tutorial "hands-on" with mCRL2. Equivalence of transition systems (slides [2-behaviour](slides/2-behaviour.pdf), frames 13-38). Introduction to Modal Logics (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), 1-13).
+- __8 Oct '25__: No lesson due to an ongoing scientific event.
+
 
 <!-- 
 - __2 Oct '25__: No lesson due to an ongoing scientific event.
@@ -102,15 +104,16 @@ Modelling in mCRL2 (slides [3-mCRL2](slides/3-mcrl2.pdf), 1-12). Starting the tu
 
 - [Principles of model checking.](http://catalogo.up.pt/F/-?func=find-b&local_base=FCUP&find_code=SYS&request=000288620), _Christel Baier and Joost-Pieter Katoen_; ISBN: 978-0-262-02649-9
 
-
- 
-### Extra material
+ ### Extra material
 
 - [mCRL2 tutorial exercises](exercises/adventurers/adventurers-tutorial-mcrl2.zip)
 - [Exam from 2024/2025](https://fm-dcc.github.io/sv2526/assets/final-normal-sv2425.pdf)
 
+### Assignments
+
+- [1st assignment on mCRL2](exercises/mcrl2-assignment.pdf) - deadline: 9 Nov. 2026
+
 <!-- 
-- [1st assignment on mCRL2](exercises/mcrl2-assignment.pdf) - deadline: 9 Nov. 2025
 - [2nd assignment on Uppaal](exercises/uppaal-assignment.pdf) - deadline: 2 Jan. 2026 ~~4 Jan. 2026~~
  -->
 
