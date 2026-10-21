@@ -1089,7 +1089,7 @@ where $\alert{K := a\in Act~~|~~K+K}$
     \vspace*{-8mm}
     \begin{enumerate}
       \item The user \structure{can only have} \alert{coffee} after the \alert{coffee button} is pressed.
-      \item The used \structure{must have} \alert{coffee} after the \alert{coffee button} is pressed.
+      \item The user \structure{must have} \alert{coffee} after the \alert{coffee button} is pressed.
       \item It is always possible to \alert{turn off} the coffee machine.
       \item It is always possible to reach a state where the coffee machine can be \alert{turned off}.
       \item It is never possible to \alert{add chocolate} right after pressing the \emph{latte button}.
@@ -1341,9 +1341,9 @@ Give a modal formula that can be satisfied at point $1$ but not at $3$.
 \small
 To prove the converse of the invariance lemma requires passing to an \alert{infinitary} modal language  with arbitrary (countable) conjunctions and disjunctions. Alternatively, and more usefully, it can be shown  for \alert{finite} models:
 \begin{block}{Lemma (modal equivalence implies bisimulation)}
-\alert{If} two states $s, s'$ from two finite models $\ger{M} = \pair{\pair{S, R}, V}$ and $\ger{M}' = \pair{\pair{S', R'}, V'}$ satisfy the same modal formulas,
+\alert{If} two states $s, s\,'$ from two finite models $\ger{M} = \pair{\pair{S, R}, V}$ and $\ger{M}' = \pair{\pair{S\,', R\,'}, V\,'}$ satisfy the same modal formulas,
 \\
-\alert{then} there is a bisimulation $B \subseteq S \times S'$  such that $s B s'$.
+\alert{then} there is a bisimulation $B \subseteq S \times S\,'$  such that $s B s\,'$.
  \end{block}
 \end{slide}
 
@@ -1360,7 +1360,7 @@ To prove the converse of the invariance lemma requires passing to an \alert{infi
 
 \begin{exampleblock}{Exercise}
 \begin{itemize}
-\item Give an example of modally equivalent states in different Kripke structures which fail to be bisimilar.
+\item Give an example of modally equivalent states in different LTS (Kripke structures) which fail to be bisimilar.
 % infinite models: one modal formula satisfies 2 non-bisimilar (infinite) models
 % m1: infinte branching of finite steps 0, 0-1, 0-1-2, 0-1-2-3,...
 % m2: same as m1, but with an extra infinitly long branch
@@ -1376,10 +1376,13 @@ To prove the converse of the invariance lemma requires passing to an \alert{infi
 \small
 \begin{itemize}
   \item A modal formula is valid on a frame if it is true under \alert{every valuation} at \alert{every world} (i.e., it cannot be refuted)
-  \item The class of frames defined by a modal formula $\phi$ are those where $\phi$ is valid.
-  \item Example: $\eventual\eventual p \to \eventual p$ defines \structure{transitivity}:\\
-  ~~~~$\ger{F}=\pair{W,R}$ is transitive iff \alert{for all $V$ and $w$},\\
-  ~~~~$\pair{\ger{F},V},w\models \eventual\eventual p \to \eventual p $
+  \item The class of frames (LTS) defined by a modal formula $\phi$ are those where $\phi$ is valid.
+  \item Example: $\eventual\eventual p \to \eventual p$ defines \structure{transitivity}:\\[5mm]
+  ~~~~$\ger{L}$ is transitive ~~~~iff~~~~ 
+      $\left\{\begin{array}{c}
+        \alert{\text{for all $V$ and $s$}}:\\
+        \pair{\ger{L},V},s\models \eventual\eventual p \to \eventual p
+      \end{array}\right\}$
 \end{itemize}
 \end{slide}
 %----------------------------------------------------------------------------------
@@ -1718,6 +1721,7 @@ where $\mathsf{NOM}$ is the set of nominals in the model
 
 \begin{block}{The $@_i$ operator}
 \begin{align*}
+\\[-12mm]
 \ger{M}, s & \models \true &&\\
 \ger{M}, s & \not \models  \false &&\\
 \ger{M}, s & \models  p &  \text{~~~ \textsf{iff} ~~~}  & s \in V(p)\\
@@ -1733,6 +1737,7 @@ where $\mathsf{NOM}$ is the set of nominals in the model
 \ger{M}, s & \models \alm{\alpha}{\phi} & \text{~~~ \textsf{iff} ~~~} &
 \text{\blue{for all}}\; v \in S \; \text{st}\; s \xrightarrow{\alpha} v\; \text{and}\; \ger{M}, v \models \phi
 \\[5mm]
+\alert{\ger{M}, s} & \alert{\models  i} &  \alert{\text{~~~ \textsf{iff} ~~~}}  & \alert{s = V(i)}\\
 \alert{\ger{M}, s} & \alert{\models  @_i \phi}
   &  \alert{\text{~~~ \textsf{iff} ~~~}}  & \alert{\ger{M}, u  \models \phi\; \text{and $u = V(i)$}}
   \\&&& \text{[$u$ is the state denoted by $i$]}
