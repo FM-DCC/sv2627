@@ -223,7 +223,7 @@ This suggests resorting to an \structure{automaton-based formalism} with an expl
 
 \noindent
 \alert{Associated tools}
-\frsplit{
+\frsplitdiff{0.48}{0.55}{
 \begin{itemize}
 \item \underline{\uppaal}\ [Behrmann, David, Larsen, 04]
 \item \textsc{Imitator} [André, 09]
@@ -231,7 +231,8 @@ This suggests resorting to an \structure{automaton-based formalism} with an expl
 }{
 \begin{itemize}
 \item \textsc{Prism} [Parker, Kwiatkowska, 00]
-\item \textsc{Kronos} [Bozga, 98]
+% \item \textsc{Kronos} [Bozga, 98]
+\item \textsc{Storm} [Dehnert, Junges, Katoen, Volk, 17]
 \end{itemize}
 }
 \end{slide}
@@ -612,7 +613,7 @@ Let $ta = \pair{L, L_0, Act, C, Tr, Inv}$
 \end{equation*}
 where
 \begin{itemize}
-\item $S = \enset{\pair{l,\alert{\eta}} \in  L \times \alert{(\R_0^+)^C}~|~\alert{\eta} \models Inv(l)}$
+\item $S = \enset{\pair{\ell,\alert{\eta}} \in  L \times \alert{(\R_0^+)^C}~|~\alert{\eta} \models Inv(\ell)}$
 \item $S_0 = \enset{\pair{\ell_0,\alert{\eta}}~|~\ell_0 \in L_0\; \land\;  \alert{\eta}\, x = 0\; \text{for all $x \in C$}}$
 \item $N = Act \cup \alert{\R_0^+}$ (ie, \alert{transitions can be labelled by actions or delays})
 \item $T \subseteq S \times N \times S$ is given by:
