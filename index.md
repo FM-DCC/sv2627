@@ -60,20 +60,13 @@ Modelling in mCRL2 (slides [3-mCRL2](slides/3-mcrl2.pdf), 1-12). Starting the tu
 - __15 Oct '26__: Modal logics (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf). Exercises: specifying and explaining concrete formulas in process logic; (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), frames 1-22). Process logic with regular expressions (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), frames 22-26). Modal logic in mCRL2 (slides [3-mCRL2](slides/3-mcrl2.pdf)).
 - __22 Oct '26__: Modal logic in mCRL2 (slides [3-mCRL2](slides/3-mcrl2.pdf)); Process logic vs. bisimulations (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), frames 28-33); Frame definability (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), frames 34-35); LTL and CTL as extensions to modal logic (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), frames 36-40); Hybrid logic (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), frames 41-45).
 - __05 Nov '26__: Timed automata: introduction, syntax, and composition (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 1-18). Semantics of Timed Automata, formally (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 17-25).
-_ __12 Nov '26__: Revisiting Semantics of Timed Automata (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 25-27). Timelocks and zeno paths (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 28-40). Modelling extensions in Uppaal (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 41-48)
-- __19 Nov '26__: Timed and untimed language equivalence of Timed Automata (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 1-4); Timed and untimed bisimulations (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 5-8); CTL in Uppaal (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 9-20); example in Uppaal (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 21-22);
+_ __12 Nov '26__: Revisiting Semantics of Timed Automata (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 25-27). Timelocks and zeno paths (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 28-40). Modelling extensions in Uppaal (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 41-48).
+- __19 Nov '26__: Timed and untimed language equivalence of Timed Automata (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 1-4); Timed and untimed bisimulations (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 5-8); CTL in Uppaal (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 9-20); example in Uppaal (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 21-22).
+- __26 Nov '26__: Probabilistic transition systems (slides [7-mchains.pdf](slides/7-mchains.pdf), frames 1-10); Probabilities in Uppaal (slides [7-mchains.pdf](slides/7-mchains.pdf), frames 10-20).
+
 
 
 <!-- 
-- __2 Oct '25__: No lesson due to an ongoing scientific event.
-- __9 Oct '25__: Continuing the tutorial "hands-on" with mCRL2. Equivalence of transition systems (slides [2-behaviour](slides/2-behaviour.pdf), frames 13-38).
-- __16 Oct '25__: Modal logics (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf). Exercises: specifying and explaining concrete formulas in process logic; (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), frames 1-22).
-- __23 Oct '25__: More exercises on process logic; process logic with regular expressions (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), frames 22-26). Modal logic in mCRL2 (slides [3-mCRL2](slides/3-mcrl2.pdf)); Process logic vs. bisimulations (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), frames 28-33).
-- __6 Nov '25__: Frame definability (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), frames 34-35); LTL and CTL as extensions to modal logic (slides [4-modal-logic.pdf](slides/4-modal-logic.pdf), frames 36-40) - NO Hybrid logic. Timed automata: introduction, syntax, and composition (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 1-18).
-- __13 Nov '25__: Timed automata and its composition, exercises; Semantics of Timed Automata, formally (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 17-27). Timelocks and zeno paths (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 28-40).
-- __20 Nov '25__: Modelling extensions in Uppaal (slides [5-TA-modelling.pdf](slides/5-TA-modelling.pdf), frames 41-48); Timed and untimed language equivalence of Timed Automata (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 1-4); Timed and untimed bisimulations (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 5-8); Introduction to CTL in Uppaal (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 9-11).
-- __27 Nov '25__: CTL in Uppaal (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 9-20); mutual exclusion examples in Uppaal (slides [6-TA-verification.pdf](slides/6-TA-verification.pdf), frames 21-32); Introduction to probabilistic transition systems (slides [7-mchains.pdf](slides/7-mchains.pdf), frames 1-4)
-- __4 Dec '25__: Probabilistic transition systems; Probabilities in Uppaal (slides [7-mchains.pdf](slides/7-mchains.pdf))
 - __11 Dec '25__: EARS approach to requirement engineering [8-ears.pdf](slides/8-ears.pdf)
  -->
 
@@ -100,9 +93,9 @@ _ __12 Nov '26__: Revisiting Semantics of Timed Automata (slides [5-TA-modelling
 6. [Timed automata: verifying](slides/6-TA-verification.pdf)
 7. [Stochastic Timed automata](slides/7-mchains.pdf)
 8. [EARS approach](slides/8-ears.pdf)
+9. [Hybrid programs with Lince](https://docs.google.com/presentation/d/1r5QCHTOoBMSbCmaewPUdMZJIWU7JgpT9YegLffCa59A/)
 
 <!-- 
-9. [Hybrid programs with Lince](slides/9-lince.pdf)
 -->
 
 ### Main book
